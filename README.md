@@ -1,2 +1,3 @@
 # AWS-Solution
 swift to online solution using AWS services
+By leveraging AWS services and automation capabilities, I have devised a robust solution to seamlessly transition the client's shop from offline to online operations. The implemented solution prioritizes high availability, scalability, and efficient server infrastructure management using AWS Fargate. By addressing the client's requirements, I ensure a streamlined and future-proof online presence for the cat pet shop. This comprehensive approach not only meets the immediate needs of the client but also lays a solid foundation for continued growth and success in the online marketplace. 
