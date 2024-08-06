@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Container of Cats. Welcome to our page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: hsla(305, 93%, 26%, 1);
+        background: linear-gradient(
+          90deg,
+          hsla(305, 93%, 26%, 1) 0%,
+          hsla(346, 91%, 87%, 1) 100%
+        );
+        background: -moz-linear-gradient(
+          90deg,
+          hsla(305, 93%, 26%, 1) 0%,
+          hsla(346, 91%, 87%, 1) 100%
+        );
+        background: -webkit-linear-gradient(
+          90deg,
+          hsla(305, 93%, 26%, 1) 0%,
+          hsla(346, 91%, 87%, 1) 100%
+        );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#810576", endColorstr="#FCC1CF", GradientType=1 );
+      }
+      h1 {
+        text-align: center;
+        color: #000000;
+        margin-top: 50px;
+        font-size: 36px;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+      }
+      p {
+        text-align: center;
+        color: #000000;
+      }
+      #photos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        grid-gap: 20px; /* Gap between grid items */
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .cat-container {
+        text-align: center;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease; /* Transition effect on transform */
+      }
+      .cat-container:hover {
+        transform: scale(1.05); /* Scale up on hover */
+      }
+      .cat-container img {
+        min-width: 200px; /* Minimum width for each image */
+        min-height: 80%; /* Minimum height for each image */
+        max-width: 100%; /* Ensures image doesn't exceed its container */
+        max-height: 100%;
+        border-radius: 8px;
+        object-fit: cover; /* Maintain aspect ratio while filling the container */
+      }
+      .cat-title {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Welcome to our page.</h1>
+      <p>Pick your favorite cat, and we will deliver it to you!</p>
+      <p>Thank you, please visit again.</p>
+    </div>
+
+    <section id="photos">
+      <div class="cat-container">
+        <img src="containerandcat1.jpg" alt="container and a cat" />
+        <div class="cat-title">Cat 1</div>
+      </div>
+      <div class="cat-container">
+        <img src="containerandcat2.jpg" alt="container and a cat" />
+        <div class="cat-title">Cat 2</div>
+      </div>
+      <div class="cat-container">
+        <img src="containerandcat3.jpg" alt="container and a cat" />
+        <div class="cat-title">Cat 3</div>
+      </div>
+      <div class="cat-container">
+        <img src="containerandcat4.jpg" alt="container and a cat" />
+        <div class="cat-title">Cat 4</div>
+      </div>
+      <div class="cat-container">
+        <img src="containerandcat5.jpg" alt="container and a cat" />
+        <div class="cat-title">Cat 5</div>
+      </div>
+      <div class="cat-container">
+        <img src="containerandcat6.jpg" alt="container and a cat" />
+        <div class="cat-title">Cat 6</div>
+      </div>
+    </section>
+  </body>
+</html>
